@@ -9,6 +9,7 @@ Project Repository:
 https://github.com/annie95162/ProtoLib
 
 ProtoLib is a lightweight vector storage and similarity search library designed for incremental learning systems.
+
 The library supports efficient storage and retrieval of feature vectors and provides high-performance nearest neighbor search functionality.
 
 Problem to Solve
@@ -17,6 +18,7 @@ Problem to Solve
 In many machine learning systems, especially incremental learning and continual learning, models need to store representative feature vectors(prototypes) of previously learned classes.
 
 These stored vectors are later used for tasks such as:
+
 * Nearest neighbor classification
 * Prototype-based inference
 * Rehearsal-free continual learning
@@ -53,6 +55,7 @@ Input vectors (NumPy) -> pybind11 (Pointer passing) -> C++ Vector Store ->
 SIMD-optimized Search -> Results returned to Python.
 
 **Modularization**:
+
 * ``BufferManager``: Handles memory allocation and resizing.
 * ``DistanceEngine``: Contains the numerical kernels (L2/Cosine).
 * ``PythonWrapper``: The ``pybind11`` binding layer.
