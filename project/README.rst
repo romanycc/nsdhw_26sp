@@ -53,6 +53,10 @@ Follow the format to add your project:
    `Project subject (this is an example entry) <github_account_name/README.rst>`__:
    https://github.com/github_account_name/project_name
 
+1. `annie95162 <https://github.com/annie95162>`__ for
+   `ProtoLib: Incremental Vector Store Library <annie95162/README.rst>`__:
+   https://github.com/annie95162/ProtoLib
+
 .. note::
 
   Append your project after the first example entry.  Do not delete the example
