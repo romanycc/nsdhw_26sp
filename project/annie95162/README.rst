@@ -169,11 +169,11 @@ Engineering Infrastructure
 * **Version Control**: Git on GitHub. Maintaining a clean commit history 
   following the "Conventional Commits" style.
 * **Testing Framework**: Testing will be divided into two levels:
-* **C++ Testing**
+  **C++ Testing**
   - verify memory correctness
   - validate distance computations
   - test edge cases (empty input, dimension mismatch)
-* **Python Testing**
+  **Python Testing**
   - validate NumPy input/output behavior
   - ensure buffer safety and no memory corruption
   - integration tests for API usage
