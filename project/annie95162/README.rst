@@ -168,15 +168,16 @@ Engineering Infrastructure
   command (e.g., ``pip install .`` or ``cmake && make``).
 * **Version Control**: Git on GitHub. Maintaining a clean commit history 
   following the "Conventional Commits" style.
-* **Testing Framework**: Testing will be divided into two levels:
-  **C++ Testing**
-  - verify memory correctness
-  - validate distance computations
-  - test edge cases (empty input, dimension mismatch)
-  **Python Testing**
-  - validate NumPy input/output behavior
-  - ensure buffer safety and no memory corruption
-  - integration tests for API usage
+* **Testing Framework**: Testing is divided into two distinct levels:
+
+  * **C++ Testing (GTest/Assertions)**:
+    - Verify memory correctness and buffer stability.
+    - Validate numerical correctness of distance computations.
+    - Test edge cases such as empty input or dimension mismatch.
+  * **Python Testing (pytest)**:
+    - Validate NumPy input/output behavior and buffer protocol safety.
+    - Ensure no memory corruption during data exchange.
+    - Integration tests for high-level API workflows.
   Python tests will use ``pytest``.
   C++ tests will use simple assertions or a lightweight framework.
 * **Documentation**: ``reStructuredText`` included in the repository.
