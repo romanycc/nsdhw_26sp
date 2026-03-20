@@ -68,6 +68,10 @@ Follow the format to add your project:
    `FastGA <jylin34/README.rst>`__:
    https://github.com/jylin34/FastGA
 
+1. `annie95162 <https://github.com/annie95162>`__ for
+   `ProtoLib: Incremental Vector Store Library <annie95162/README.rst>`__:
+   https://github.com/annie95162/ProtoLib
+
 .. note::
 
   Append your project after the first example entry.  Do not delete the example
