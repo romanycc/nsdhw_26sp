@@ -72,6 +72,10 @@ Follow the format to add your project:
    `ProtoLib: Incremental Vector Store Library <annie95162/README.rst>`__:
    https://github.com/annie95162/ProtoLib
 
+1. `Yuli-ytd <https://github.com/Yuli-ytd>`__ for
+   `StreamStats <Yuli-ytd/README.rst>`__:
+   https://github.com/Yuli-ytd/StreamStats
+
 .. note::
 
   Append your project after the first example entry.  Do not delete the example
