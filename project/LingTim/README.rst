@@ -1,7 +1,7 @@
 # Reimplement NumPy Tensor Operations
 
 ## URL
-https://github.com/LingTim/Reimplement-NumPy-Matrix-Operations
+https://github.com/LingTim/Reimplement-NumPy-Tensor-Operations
 
 ## Author
 GitHub Account: LingTim
