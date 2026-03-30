@@ -65,7 +65,7 @@ Follow the format to add your project:
    `Emulating NumPy Matrix Operations <LingTim/README.rst>`__:
    https://github.com/LingTim/Reimplement-NumPy-Tensor-Operations
 3. `WongJeYi <https://github.com/WongJeYi>`__ for
-   `ColTable <WongJeYi/ColTable/README.rst>`__:
+   `ColTable <WongJeYi/README.rst>`__:
    https://github.com/WongJeYi/ColTable
 4. `Yuli-ytd <https://github.com/Yuli-ytd>`__ for
    `StreamStats <Yuli-ytd/README.rst>`__:
